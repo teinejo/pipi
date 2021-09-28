@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Menu{
+    background: linear-gradient(180deg, #C1C8FB 0%, #9E98F8 100%);
+    position: absolute;
+
+}
+.d-flex{
+    justify-content: space-between;
+}
