@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Footer {
+    background-color: #171717;
+}
+
+.FooterText {
+    color: #198754;
+    text-align: center;
+    font-family: "Segoe UI";
+}
+
+p {
+    margin-bottom: 0;
+}
+.footerLinks{
+    font-size: 18px;
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+
+}
+
+.footerLink {
+    text-decoration: none;
+    color: white;
+    margin-right: 2%;
+    margin-top: 1%;
+}

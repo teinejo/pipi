@@ -1,31 +1,28 @@
 import React from "react";
 import './Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {Navbar,Container,Nav,NavDropdown,Form, FormControl, Button} from 'react-bootstrap';
+import {Navbar, Container, Nav, Form, FormControl, Button} from 'react-bootstrap';
 
 function Header() {
 
     return (
-        // <header className='Menu'>
-        //     <div>
-        //         <h3>Hello</h3>
-        //     </div>
-        // </header>
         <Navbar className='Menu' expand="lg">
-            <Container>
-                <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <Container className='Header'>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
+                    <div className='Homepage' href="/home">WarcraftGames</div>
                     <Nav className="me-auto">
-                        <Nav.Link href="#home">Home</Nav.Link>
-                    <Form className="d-lg-flex">
+                        <a className='headerLink' href="/">Home</a>  {/* Ссылка на главную страницу */}
+                        <a className='headerLink' href="">News</a>
+                    <Form className="d-lg-flex margin_form">
+                        {/* Форма с поиском */}
                         <FormControl
                             type="search"
                             placeholder="Search"
-                            className="mr-2"
+                            className="me-2"
                             aria-label="Search"
                         />
-                        <Button variant="outline-success">Search</Button>
+                        <Button variant="outline-success">Search</Button>    {/* Кнопка с поиском */}
                     </Form>
                     </Nav>
                 </Navbar.Collapse>
@@ -35,3 +32,4 @@ function Header() {
 }
 
 export default Header;
+

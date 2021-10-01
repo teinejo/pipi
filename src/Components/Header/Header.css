@@ -3,11 +3,35 @@
     padding: 0;
 }
 
-.Menu{
-    background: linear-gradient(180deg, #C1C8FB 0%, #9E98F8 100%);
+.Menu {
+    background: linear-gradient(180deg, #222 0%, #171717 100%);
     position: absolute;
-
+    color: #198754;
+    text-decoration: #198754;
+    font-family: "Segoe UI";
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
-.d-flex{
-    justify-content: space-between;
+.Homepage {
+    color: #198754;
+    font-size: 25px;
+    margin-right: 4%;
+}
+
+.headerLink {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px 30px 15px;
+    font-size: 20px;
+}
+
+.Header a:visited {
+    color: #ffffff;
+}
+.margin_form{
+    margin-left: 35rem;
+    height: 10%;
+    padding-top: 10px;
 }
